@@ -23,16 +23,16 @@ $ cd news
 ```linux
 $ scrapy genspider news112 112.ua
 $ cd news/spiders
-$ git clone https://github.com/kostya12362/scrapy-news-112.ua.git
-$ cd /scrapy-news-112.ua
+$ git clone https://github.com/kostya12362/scrapy-upwork.git
+$ cd /scrapy-upwork
 ```
 ## Fix settings
 In your settings.py file comment out
 ```python
-ROBOTS TXT OBEY = True
+#ROBOTS TXT OBEY = True
 ```
 ## Run spider 
 To start and save the file in csv, run
 ```linux
-$ scrapy crawl news112 -o news.csv
+$ scrapy crawl grec -o full.csv
 ```
